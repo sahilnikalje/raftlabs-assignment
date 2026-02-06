@@ -18,7 +18,7 @@ const seedMenu=async()=>{
       name: "Veg Burger",
       description: "Crispy veg patty with lettuce",
       price: 149,
-      image: "/images/burger.png"
+      image: "/images/burger.jpg"
     },
     {
       name: "Pasta",

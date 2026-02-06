@@ -80,6 +80,11 @@ input::placeholder {
   object-fit: cover;
   border-radius: 12px;
 }
+button:disabled {
+  background: #22c55e;
+  opacity: 1;
+  cursor: default;
+}
 
 .menu-card:hover,
 .cart-card:hover {

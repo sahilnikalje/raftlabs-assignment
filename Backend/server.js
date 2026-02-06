@@ -10,7 +10,7 @@ const orderRoutes=require('./routes/orderRoutes')
 
 const app=express()
 const PORT=process.env.PORT || 3000
-
+app.use('/images', express.static('images'))
 app.use(cors())
 app.use(express.json())
 
